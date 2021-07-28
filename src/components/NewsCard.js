@@ -22,7 +22,7 @@ function NewsCard() {
             <div className="fakeimg" style={{ height: "200px" }}>
               Image
             </div>
-            <p>Some text..</p>
+            <p className="mt-3 mb-3">Some text..</p>
             <NewsComment />
           </div>
         </div>

@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <h2>News Blog</h2>
+        <h2 className="fw-bold">News Blog</h2>
       </div>
       <NewsCard />
     </div>
