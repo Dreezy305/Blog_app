@@ -1,4 +1,5 @@
 import "./App.css";
+import NewsCard from "./components/NewsCard";
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <div className="header">
         <h2>News Blog</h2>
       </div>
+      <NewsCard />
     </div>
   );
 }
