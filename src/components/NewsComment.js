@@ -1,14 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-// Put any other imports below so that CSS from your
-// components takes precedence over default styles.
 
 function NewsComment() {
   return (
     <>
-      <div className="form-floating w-100">
+      <div className="form-floating w-50">
         <textarea
-          className="form-control"
+          className="form-control mb-3"
           placeholder="Leave a comment here"
           id="floatingTextarea2"
           style={{ height: "100px" }}
